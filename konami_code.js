@@ -12,7 +12,7 @@ function init() {
       index++;
       
       if (index === code.length) {
-        console.log("if branch reached!")
+        debugger;
         alert("Congratulations, Konami Code entered!");
         
         index = 0;
