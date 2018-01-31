@@ -11,9 +11,9 @@ function init() {
     
     if (key === code[index]) {
       index++;
-      
+      console.log(index)
       if (index === code.length) {
-        debugger;
+        
         alert("Congratulations, Konami Code entered!");
         
         index = 0;
